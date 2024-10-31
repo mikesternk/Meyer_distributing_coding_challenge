@@ -56,7 +56,9 @@ namespace InterviewTest.Customers
 
         public float GetTotalProfit()
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            // Profit is the total sum minus the total returns
+            return GetTotalProfit() - GetTotalReturns();
         }
     }
 }
