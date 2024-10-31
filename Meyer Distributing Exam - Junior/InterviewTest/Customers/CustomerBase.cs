@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using InterviewTest.Orders;
 using InterviewTest.Returns;
 
@@ -40,7 +41,9 @@ namespace InterviewTest.Customers
 
         public float GetTotalSales()
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            // Get the sum of all the sales in each order
+            return GetOrders().Sum(order => order.Products.Sum(orderedProduct => orderedProduct.Product.GetSellingPrice()));
         }
 
         public float GetTotalReturns()

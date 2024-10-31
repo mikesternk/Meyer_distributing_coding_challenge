@@ -1,0 +1,16 @@
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\bin\Debug\net5.0\InterviewTest.exe
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\bin\Debug\net5.0\InterviewTest.deps.json
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\bin\Debug\net5.0\InterviewTest.runtimeconfig.json
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\bin\Debug\net5.0\InterviewTest.runtimeconfig.dev.json
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\bin\Debug\net5.0\InterviewTest.dll
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\bin\Debug\net5.0\InterviewTest.pdb
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.AssemblyInfoInputs.cache
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.AssemblyInfo.cs
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.csproj.CoreCompileInputs.cache
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.sourcelink.json
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.dll
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\refint\InterviewTest.dll
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.pdb
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\InterviewTest.genruntimeconfig.cache
+c:\Users\User\Desktop\Meyer Distributing\Meyer Distributing Exam - Junior\InterviewTest\obj\Debug\net5.0\ref\InterviewTest.dll

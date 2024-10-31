@@ -9,7 +9,7 @@ namespace InterviewTest.Customers
         string GetName();
         void CreateOrder(IOrder order);
         void CreateReturn(IReturn rga);
-        List<IOrder> GetOrders();
+            List<IOrder> GetOrders();
         List<IReturn> GetReturns();
         float GetTotalSales();
         float GetTotalReturns();
