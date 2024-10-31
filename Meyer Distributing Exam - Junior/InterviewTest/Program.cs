@@ -83,11 +83,16 @@ namespace InterviewTest
 
         private static ICustomer GetTruckAccessoriesCustomer()
         {
+            // To stop the total from carrying on we need to create new instances of the amounts
+            var orderRepo = new OrderRepository();
+            var returnRepo = new ReturnRepository();
             return new TruckAccessoriesCustomer(orderRepo, returnRepo);
         }
 
         private static ICustomer GetCarDealershipCustomer()
         {
+            var orderRepo = new OrderRepository();
+            var returnRepo = new ReturnRepository();
             return new CarDealershipCustomer(orderRepo, returnRepo);
         }
 
