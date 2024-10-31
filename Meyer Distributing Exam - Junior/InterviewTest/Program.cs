@@ -59,6 +59,9 @@ namespace InterviewTest
             IReturn rga = new Return("TruckAccessoriesReturn123", order);
             rga.AddProduct(order.Products.First());
 
+            // missing line for the returns to display
+            customer.CreateReturn(rga);
+
             ConsoleWriteLineResults(customer);
         }
 
