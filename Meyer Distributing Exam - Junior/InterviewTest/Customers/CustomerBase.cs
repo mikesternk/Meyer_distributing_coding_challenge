@@ -43,12 +43,15 @@ namespace InterviewTest.Customers
         {
             // throw new NotImplementedException();
             // Get the sum of all the sales in each order
-            return GetOrders().Sum(order => order.Products.Sum(orderedProduct => orderedProduct.Product.GetSellingPrice()));
+            return GetOrders().Sum(order => order.Products.Sum(product => product.Product.GetSellingPrice()));
         }
 
         public float GetTotalReturns()
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            // Get the total returns 
+            return GetReturns().Sum(returnItem => returnItem.ReturnedProducts.Sum(returnedProduct => returnedProduct.OrderProduct.Product.GetSellingPrice()));
+
         }
 
         public float GetTotalProfit()
