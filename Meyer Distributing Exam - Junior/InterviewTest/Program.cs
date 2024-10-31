@@ -99,6 +99,19 @@ namespace InterviewTest
             Console.WriteLine($"Total Profit: {customer.GetTotalProfit().ToString("c")}");
 
             Console.WriteLine();
+
+            // Displaying the purchase date for each product
+            foreach (var order in customer.GetOrders())
+            {
+                Console.WriteLine($"Order Number: {order.OrderNumber}");
+                foreach (var OrderedProduct in order.Products)
+                {
+                    Console.WriteLine($"Product: {OrderedProduct.Product.GetProductNumber()}, Purchased On: {OrderedProduct.PurchaseDate}");
+                }
+
+                // Keep the terminal clean
+                Console.WriteLine();
+            }
         }
     }
 }

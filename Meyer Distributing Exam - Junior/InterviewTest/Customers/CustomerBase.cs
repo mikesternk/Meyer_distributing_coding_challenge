@@ -58,7 +58,7 @@ namespace InterviewTest.Customers
         {
             // throw new NotImplementedException();
             // Profit is the total sum minus the total returns
-            return GetTotalProfit() - GetTotalReturns();
+            return GetTotalSales() - GetTotalReturns();
         }
     }
 }
